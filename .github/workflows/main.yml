@@ -1,0 +1,8 @@
+---
+- name: Sync and merge upstream repository with your current repository
+  uses: dabreadman/sync-upstream-repo@v1.3.0
+  with:
+    upstream_repo: https://github.com/microsoft/fhir-server
+    upstream_branch: main
+    downstream_branch: main
+    token: cHSB3gI8WXmXTJGl8q/KQqbMn3II4Ak8UhIYu2yVT1s
